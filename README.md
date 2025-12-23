@@ -8,7 +8,7 @@
 
 **From Segmentation to Tracking and Multi-Dimensional Quantification**
 
-[Paper](#-citation) | [Installation](#-installation) | [Quick Start](#-quick-start) | [Documentation](docs/)
+[Paper](#citation) | [Installation](#installation) | [Quick Start](#quick-start) | [Documentation](#documentation)
 
 </div>
 
@@ -67,7 +67,7 @@ WormTracker_Fusion/
 
 ---
 
-## 🛠️ Installation
+## <a id="installation"></a>🛠️ Installation
 
 ### 1. Clone the repository
 
@@ -108,7 +108,7 @@ pyyaml>=6.0
 
 ---
 
-## 🚀 Usage
+## <a id="quick-start"></a>🚀 Usage
 
 Run the `main.py` script to process a video. You must provide the path to your trained PaddleX inference model.
 
@@ -194,7 +194,7 @@ Visualized output with:
 
 ---
 
-## 📖 Methodology Overview
+## <a id="documentation"></a>📖 Methodology Overview
 
 ### Pipeline
 
@@ -217,35 +217,6 @@ The framework follows a **"Segmentation–Tracking–Quantification"** cascade:
    - B-Spline interpolation for centerline
    - IQR + Savitzky-Golay filtering to remove jitter
 
-### Mathematical Models
-
-**Morphological Confidence (Eq. 8-9):**
-```
-S_shape = α·(1 - exp(-λ₁/λ₂)) + β·(4πA/P²)
-C_new = C_det · (1 + γ·S_shape)
-```
-
-**Body Stretch Ratio (Eq. 10):**
-```
-Rs = Lt / L̄
-```
-
-**Deformation Gradient (Eq. 14):**
-```
-Gd = (1/9)Σ|Ks+1 - Ks|
-```
-
-**Directed Velocity (Eq. 18):**
-```
-v = (1/NΔt)Σ(pᵢ(t) - pᵢ(t-1))·u_pharynx
-```
-
-**Omega-Turn Detection (Eq. 19):**
-```
-κ_max > π/3  AND  d_pharynx-tail < 0.1L
-```
-
----
 
 ## 📊 Benchmark Results
 
@@ -283,7 +254,7 @@ v = (1/NΔt)Σ(pᵢ(t) - pᵢ(t-1))·u_pharynx
 
 ---
 
-## 📜 Citation
+## <a id="citation"></a>📜 Citation
 
 If you use this code or dataset in your research, please cite our paper:
 
