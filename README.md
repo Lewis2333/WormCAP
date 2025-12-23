@@ -253,6 +253,8 @@ v = (1/NΔt)Σ(pᵢ(t) - pᵢ(t-1))·u_pharynx
 
 ![instance segmentation models in terms of speed‑accuracy trade‑offs](./assets/instance_segmentation_models_in_terms_of_speed‑accuracy_trade‑offs.png)
 
+### Segmentation Results
+
 ![Instance‑segmentation results of C](./assets/Instance‑segmentation_results_of_C.png)
 
 
