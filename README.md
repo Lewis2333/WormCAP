@@ -233,9 +233,11 @@ The framework follows a **"Segmentation–Tracking–Quantification"** cascade:
 ### Training Data
 - **CSB-1**: 10 videos (912×736px, 5 FPS), 8:1:1 train/val/test split
 - **WormSwin Synthetic**: 10,000 images (175K+ instances) for pre-training
+- **The Download Site**: https://zenodo.org/records/7456803
 
 ### Validation Data
 - **Tierpsy Tracker (N2)**: 2 FPS, 370s recordings for long-term tracking evaluation
+- **The Download Site**: https://zenodo.org/records/3837679
 
 *All datasets follow COCO annotation format.*
 
