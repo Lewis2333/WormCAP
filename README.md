@@ -14,7 +14,7 @@
 
 ---
 
-## 📖 Overview
+## Overview
 
 This repository contains the official implementation of **"High-Throughput Behavioral Phenotyping Cascade Framework for *Caenorhabditis elegans*"**.
 
@@ -22,7 +22,7 @@ The system provides an automated, end-to-end solution for nematode behavioral an
 
 ---
 
-## 🌟 Key Features
+## Key Features
 
 ### 1. Robust Segmentation (Mask-RT-DETR)
 - Transformer-based architecture for handling complex backgrounds and overlapping worms
@@ -45,7 +45,7 @@ The system provides an automated, end-to-end solution for nematode behavioral an
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 WormTracker_Fusion/
@@ -67,7 +67,7 @@ WormTracker_Fusion/
 
 ---
 
-## <a id="installation"></a>🛠️ Installation
+## <a id="installation"></a>Installation
 
 ### 1. Clone the repository
 
@@ -108,7 +108,7 @@ pyyaml>=6.0
 
 ---
 
-## <a id="quick-start"></a>🚀 Usage
+## <a id="quick-start"></a>Usage
 
 Run the `main.py` script to process a video. You must provide the path to your trained PaddleX inference model.
 
@@ -142,7 +142,7 @@ python main.py \
 
 ---
 
-## 📊 Output Data
+## Output Data
 
 The system generates the following files in the `output_dir`:
 
@@ -194,7 +194,7 @@ Visualized output with:
 
 ---
 
-## <a id="documentation"></a>📖 Methodology Overview
+## <a id="documentation"></a>Methodology Overview
 
 ### Pipeline
 
@@ -228,7 +228,7 @@ The framework follows a **"Segmentation–Tracking–Quantification"** cascade:
 
 ---
 
-## 🗂️ Datasets
+## Datasets
 
 ### Training Data
 - **CSB-1**: 10 videos (912×736px, 5 FPS), 8:1:1 train/val/test split
@@ -241,7 +241,7 @@ The framework follows a **"Segmentation–Tracking–Quantification"** cascade:
 
 ---
 
-## <a id="citation"></a>📜 Citation
+## <a id="citation"></a>Citation
 
 If you use this code or dataset in your research, please cite our paper:
 
@@ -258,7 +258,7 @@ If you use this code or dataset in your research, please cite our paper:
 
 ---
 
-## 🤝 Acknowledgments
+## Acknowledgments
 
 This work was supported by:
 - **Natural Science Foundation of Shandong Province** (Grant No. ZR2024QF228 and ZR2024QA176)
@@ -266,13 +266,13 @@ This work was supported by:
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see [LICENSE](LICENSE) for details.
 
 ---
 
-## 📧 Contact
+## Contact
 
 - **Corresponding Author**: Xiaoqing Han (hanxiaoqing@sdsmu.edu.cn)
 - **Institution**: Shandong Second Medical University
