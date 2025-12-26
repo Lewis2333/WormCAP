@@ -217,19 +217,6 @@ The framework follows a **"Segmentation–Tracking–Quantification"** cascade:
    - B-Spline interpolation for centerline
    - IQR + Savitzky-Golay filtering to remove jitter
 
-
-## 📊 Benchmark Results
-
-### Segmentation Performance
-
-![instance segmentation models in terms of speed‑accuracy trade‑offs](./assets/instance_segmentation_models_in_terms_of_speed‑accuracy_trade‑offs.png)
-
-### Segmentation Results
-
-![Instance‑segmentation results of C](./assets/Instance‑segmentation_results_of_C.png)
-
-
-
 ### Feature Stability (Wild-Type N2, n=5)
 
 | Feature | Mean ± SD | CV (%) | Biological Validity |
@@ -289,7 +276,7 @@ This project is licensed under the MIT License - see [LICENSE](LICENSE) for deta
 
 - **Corresponding Author**: Xiaoqing Han (hanxiaoqing@sdsmu.edu.cn)
 - **Institution**: Shandong Second Medical University
-- **Issues**: [GitHub Issues](https://github.com/your_username/WormTracker_Fusion/issues)
+- **Issues**: [GitHub Issues](https://github.com/Lewis2333/WormCap/issues)
 
 ---
 
