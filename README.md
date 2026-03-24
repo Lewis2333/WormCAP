@@ -72,7 +72,7 @@ WormTracker_Fusion/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your_username/WormTracker_Fusion.git
+git clone https://github.com/Lewis2333/WormCAP.git
 cd WormTracker_Fusion
 ```
 
