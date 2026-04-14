@@ -253,32 +253,16 @@ If you use this code or dataset in your research, please cite our paper:
          From Segmentation to Tracking and Multi-Dimensional Quantification},
   author={Liu, Xiaoke and Li, Boao and Huo, Jing and Han, Xiaoqing},
   journal={Submitted to Journal Name},
-  year={2025},
-  affiliation={Shandong Second Medical University}
+  year={2026},
 }
 ```
 
 ---
 
-## Acknowledgments
-
-This work was supported by:
-- **Natural Science Foundation of Shandong Province** (Grant No. ZR2024QF228 and ZR2024QA176)
-- **National Natural Science Foundation of China** (Grant No. 82301666)
-
----
 
 ## License
 
 This project is licensed under the MIT License - see [LICENSE](LICENSE) for details.
-
----
-
-## Contact
-
-- **Corresponding Author**: Xiaoqing Han (hanxiaoqing@sdsmu.edu.cn)
-- **Institution**: Shandong Second Medical University
-- **Issues**: [GitHub Issues](https://github.com/Lewis2333/WormCap/issues)
 
 ---
 
